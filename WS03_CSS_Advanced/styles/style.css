@@ -1,0 +1,120 @@
+p {
+    color: lime;
+}
+body {
+    background-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    font-size: 3em;
+}
+li {
+    color: darkmagenta;
+    font-size: 1em;
+    padding: 10px;
+    margin: 20px; 
+}
+th {
+    color: lime;
+    padding: 10px;
+    margin: 20px;
+}
+td { 
+    color: lime;
+    padding: 20px;
+    margin: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 4px solid darkmagenta;
+}
+th {
+    background-color: black;
+}
+td {
+    background-color: black;
+}
+form {
+    color: darkmagenta;
+    padding: 67px;
+    margin: 30px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    gap:unset;
+}
+input[type="submit"] {
+    background-color: darkmagenta;
+    color: black;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="email"] {
+    background-color: darkmagenta;
+    border-width: 40px;
+    border-color: black;
+}
+input[type="text"] {
+    background-color: darkmagenta;
+    border-width: 40px;
+    border-color: black;
+}
+input[type="submit"]:hover {
+    background-color: red;
+    color: red;
+}
+.transition-button {
+    background-color: darkmagenta;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.transition-button:hover {
+    background-color: black;
+}
+
+.img-div {
+    position: relative;
+    animation: move 1s infinite alternate;
+}
+@keyframes move {
+    from {left: 0;}
+    to {left: 1000px;}
+}
+.pseudo-list li:nth-child(odd) {
+    background-color: lime;
+    color: black;
+}
+.pseudo-list li:nth-child(even) {
+    background-color: darkmagenta;
+    color: black;
+}
+.filter-image {
+    filter: opacity(100%);
+    transition: filter 0.3s ease;
+}
+.filter-image:hover {
+    filter: opacity(0%)
+}
+.quote {
+    position: relative;
+    padding-left: 20px;
+    font-style: italic;
+}
+.quote::before {
+    content: 'bruh';
+    font-size: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: darkmagenta;
+}
