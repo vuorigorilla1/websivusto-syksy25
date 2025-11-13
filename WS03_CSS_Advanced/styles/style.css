@@ -98,6 +98,13 @@ input[type="submit"]:hover {
     background-color: darkmagenta;
     color: black;
 }
+.pseudo-list li:hover {
+    transform: scale(1.67);
+    transition-duration: 0.1s;
+}
+.center {
+    text-align: center;
+}
 .filter-image {
     filter: opacity(100%);
     transition: filter 0.3s ease;
