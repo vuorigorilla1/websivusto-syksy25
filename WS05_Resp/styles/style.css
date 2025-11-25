@@ -89,6 +89,8 @@ input[type="submit"]:hover {
     position: absolute;
     animation: move 1s infinite alternate;
     display: flex;
+    max-width: 100%;
+    height:
 
 }
 @keyframes move {
