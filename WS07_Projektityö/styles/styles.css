@@ -1,0 +1,273 @@
+body {
+    background-color: rgb(22, 21, 21) !important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    color: white !important;
+    text-decoration: none !important;
+    font-family: sans-serif;
+    padding: 0.5rem;
+}
+p {
+    color:white;
+}
+ul {
+    background-color: rgb(50, 48, 48);
+    padding: 1%;
+}
+li {
+    color: white;
+    font-size: 1rem;
+    padding: 1%
+}
+h1 {
+    margin: auto;       
+    text-align: center;
+    background-color:rgb(50, 48, 48);
+    color: white !important;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 80%;
+    margin-bottom: 0.5rem;  
+}
+h2 {
+    margin: 2%;
+    text-align: center;
+    background-color:rgb(50, 48, 48);
+    color: white !important;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 50%;
+}
+h4 {
+    margin: auto;
+    text-align: center;
+    background-color:rgb(50, 48, 48);
+    color: white !important;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 35%;
+}
+h6 {
+    margin: auto;
+    font-size: 1.8rem !important;
+    text-align: center;
+    background-color:rgb(50, 48, 48);
+    color: white !important;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 50%;
+}
+footer {
+    text-align: left;
+    position: relative;
+    bottom: 0;
+    margin-top: 30% !important;
+    color: white;
+    background-color:rgb(50, 48, 48);
+}
+nav {
+    text-align: center;
+    color: white;
+    background-color:rgb(50, 48, 48);
+    padding: 2%;
+    border: 0.5rem;
+    width: 60%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.img1 {
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 7% !important;
+}
+.img1:hover {
+    animation: rotate 0.5s infinite linear;
+}
+@keyframes rotate {
+    to {transform: rotate(1turn);
+    }
+}
+form {
+    text-align: center;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.information {
+    text-align: center;
+    margin: auto;
+}
+input[type="submit"] {
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    background-color:rgb(50, 48, 48);
+    color: white;
+    width: 50%;
+    padding: 1%;
+    margin-bottom: 1%;
+}
+input[type="email"] {
+    margin: auto;
+    background-color:rgb(50, 48, 48);
+    color: white;
+    width: 50%;
+    padding: 1%;
+    margin-bottom: 1%;
+}
+input[type="text"] {
+    margin: auto;
+    background-color:rgb(50, 48, 48);
+    color: white;
+    width: 50%;
+    padding: 1%;
+    margin-bottom: 1%;
+}
+input[type="submit"]:hover {
+    background-color: green;
+    color: green;
+}
+.hover:hover {
+    transform: scale(1.03);
+    transition: all 0.1s ease-in-out;
+}
+.koira {
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.talo {
+    display: block;
+    margin: auto;
+    margin-bottom: 3%;
+    max-width: 100%;
+    height: auto;
+    border-radius:  10px;
+}
+.arrival {
+    display: block;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius:  10px;
+}
+.matka-teksti {
+    color: white;
+    background-color:rgb(50, 48, 48);
+    padding: 3%;
+    margin-left: 4%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-right: 4%;
+}
+.hakone1 {
+    margin-bottom: 3%;
+    margin-top: 3%;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius:  10px;
+    
+}
+.hakone2 {
+    margin-bottom: 3%;
+    margin-top: 3%;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius:  10px;
+    margin-left:1%;
+}
+.sideb {
+    display: flex;
+}
+.float {
+    display: flex;
+}
+.top3 {
+    margin-top: 4%;
+}
+.ruoka-teksti {
+    color: white;
+    background-color:rgb(50, 48, 48);
+    padding: 3%;
+    margin-left: 4%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    margin-right: 4%;
+    text-align: left;
+}
+.yeah {
+    margin: auto;
+    color: white;
+    background-color:rgb(50, 48, 48);
+    padding: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+
+    text-align: center;
+}
+.bootea {
+    display: block;
+    margin: auto !important ;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+.rate {
+    float: left;
+}
+.rate:hover {
+    transform: scale(1.2);
+    cursor: crosshair;
+    color: transparent !important;
+    transition: all 0.3s ease-in;
+}
+.ramen {
+     display: block;
+    margin: auto !important ;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+.themeal {
+    opacity: 100%;
+}
+.themeal:hover {
+    filter:opacity(0%);
+    transition: all 0.3s ease-in-out;
+}
+.kuvat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.japani {
+    margin: 1%;
+    margin-left: 3.7%;
+}
+.japanimg {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+.japani:hover {
+    transform: scale(1.09);
+}
+.m {
+    margin-top: 0.5%;
+}
