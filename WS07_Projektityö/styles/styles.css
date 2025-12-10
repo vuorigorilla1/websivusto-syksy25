@@ -196,6 +196,8 @@ input[type="submit"]:hover {
 }
 .top3 {
     margin-top: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 .ruoka-teksti {
     color: white;
